@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "eslint规则",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.6.1",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-vue": "^2.1.0"
+  }
+}
