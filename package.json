@@ -3,6 +3,25 @@
   "version": "1.0.0",
   "description": "eslint规则",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foora/eslint-config-foora.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "vue",
+    "react",
+    "javascript",
+    "foora",
+    "es6"
+  ],
+  "author": "foora",
+  "license": "MIT",
+  "homepage": "https://github.com/foora/eslint-config-foora#readme",
+  "bugs": {
+    "url": "https://github.com/foora/eslint-config-foora/issues"
+  },
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.6.1",
