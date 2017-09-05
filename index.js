@@ -2,7 +2,7 @@ module.exports = {
     parser: 'babel-eslint',
     parserOptions: {
         ecmaVersion: 2017,
-        sourceType: "module",
+        sourceType: 'module',
         ecmaFeatures: {
             jsx: true,
             experimentalObjectRestSpread: true
@@ -92,7 +92,7 @@ module.exports = {
         'block-scoped-var': 'error',
         'class-methods-use-this': 'off',
         'complexity': [
-            'error', 
+            'error',
             {
                 max: 10
             }
@@ -210,7 +210,7 @@ module.exports = {
             'error',
             'never',
             {
-                onlyEquality:true
+                onlyEquality: true
             }
         ],
         'strict': [
@@ -330,6 +330,10 @@ module.exports = {
         ],
         'func-name': 'off',
         'func-style': 'off',
+        'function-paren-newline': [
+            'error',
+            'multiline'
+        ],
         'id-blacklist': 'off',
         'id-length': 'off',
         'id-match': 'off',
@@ -512,9 +516,7 @@ module.exports = {
             'always',
             {
                 block: {
-                    exceptions: [
-                        '*'
-                    ],
+                    exceptions: ['*'],
                     balanced: true
                 }
             }
