@@ -2,11 +2,11 @@
 
 ## 介绍
 
-自己开发时使用的eslint规则，用于约束自己的代码风格。主要参考[AlloyTeam eslint 规则](https://github.com/AlloyTeam/eslint-config-alloy),再结合自己的风格略微的修改了下，形成了这一份eslint规则。同时通过自己去了解每一条规则，然后配置一遍，学习一下eslint。
+自己开发时使用的eslint规则，用于约束自己的代码风格。主要参考[AlloyTeam eslint 规则](https://github.com/AlloyTeam/eslint-config-alloy),再结合自己的风格略微的修改了下，形成了这一份eslint规则。同时通过自己去了解每一条规则，然后配置一遍，学习一下eslint。
 
 ## 使用方法
 
-1. 安装模块
+1. 安装模块
 
 使用yarn的开发者：
 > yarn add foora/eslint-config-foora --dev
