@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "eslint规则",
   "main": "index.js",
+  "scripts": {
+    "test": "node ./test/eslint.test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/foora/eslint-config-foora.git"
