@@ -17,7 +17,7 @@
 
 2. 配置.eslintrc.js
 
-标准js版本:
+standard版本:
 ```
 // .eslintrs.js
 
@@ -41,6 +41,19 @@ module.exports = {
     extends: ['eslint-config-foora/vue']
 };
 ```
+## 测试
+
+1. standard版本
+
+> npm test standard
+
+2. react版本
+
+> npm test react
+
+3. vue版本
+
+> npm test vue
 
 ## 参考
 - [AlloyTeam Eslint 规则](https://github.com/AlloyTeam/eslint-config-alloy)
