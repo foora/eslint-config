@@ -111,7 +111,10 @@ module.exports = {
         'dot-notation': 'off',
         'eqeqeq': [
             'error',
-            'always'
+            'always',
+            {
+                null: 'ignore'
+            }
         ],
         'guard-for-in': 'error',
         'no-alert': 'off',
@@ -129,7 +132,7 @@ module.exports = {
             }
         ],
         'no-empty-pattern': 'error',
-        'no-eq-null': 'error',
+        'no-eq-null': 'off',
         'no-eval': 'error',
         'no-extend-native': 'error',
         'no-extra-bind': 'error',
@@ -197,7 +200,7 @@ module.exports = {
         'no-with': 'error',
         'prefer-promise-reject-errors': 'error',
         'radix': 'error',
-        'require-await': 'error',
+        'require-await': 'off',
         'vars-on-top': 'off',
         'wrap-iife': [
             'error',

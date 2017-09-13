@@ -3,6 +3,7 @@ module.exports = {
         './index.js',
         'plugin:vue/base'
     ],
+    plugins: ['vue'],
     rules: {
         // Possible Error
         'vue/no-dupe-keys': 'off',
