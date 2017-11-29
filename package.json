@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-foora",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "eslint规则",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "react",
     "javascript",
     "foora",
-    "es6"
+    "es6",
+    "typescript"
   ],
   "author": "foora",
   "license": "MIT",
@@ -26,9 +27,12 @@
     "url": "https://github.com/foora/eslint-config-foora/issues"
   },
   "dependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.6.1",
-    "eslint-plugin-react": "^7.3.0",
-    "eslint-plugin-vue": "^3.13.0"
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.12.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-typescript": "^0.8.1",
+    "eslint-plugin-vue": "^3.13.1",
+    "typescript-eslint-parser": "^9.0.0",
+    "vue-eslint-parser": "^2.0.1-beta.2"
   }
 }

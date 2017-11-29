@@ -1,8 +1,6 @@
 module.exports = {
-    extends: [
-        './index.js',
-        'plugin:vue/base'
-    ],
+    extends: ['./index.js'],
+    parser: 'vue-eslint-parser',
     plugins: ['vue'],
     rules: {
         // Possible Error

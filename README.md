@@ -41,6 +41,22 @@ module.exports = {
     extends: ['eslint-config-foora/vue']
 };
 ```
+typescript版本:
+```
+// .eslintrs.js
+
+module.exports = {
+    extends: ['eslint-config-foora/typescript']
+};
+```
+typescript-react版本:
+```
+// .eslintrs.js
+
+module.exports = {
+    extends: ['eslint-config-foora/typescript-react']
+};
+```
 ## 测试
 
 1. standard版本

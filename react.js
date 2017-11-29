@@ -1,13 +1,6 @@
 module.exports = {
     extends: ['./index.js'],
     plugins: ['react'],
-    settings: {
-        react: {
-            createClass: 'createReactClass',
-            pragma: 'React',
-            version: '15.0'
-        }
-    },
     rules: {
         'react/boolean-prop-naming': 'off',
         'react/default-props-match-prop-types': 'off',
