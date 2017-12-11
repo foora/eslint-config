@@ -51,7 +51,10 @@ module.exports = {
         'no-empty-character-class': 'error',
         'no-ex-assign': 'error',
         'no-extra-boolean-cast': 'error',
-        'no-extra-parens': 'off',
+        'no-extra-parens': [
+            'error',
+            'functions'
+        ],
         'no-extra-semi': 'error',
         'no-func-assign': 'error',
         'no-inner-declarations': [
@@ -88,7 +91,7 @@ module.exports = {
                 getWithoutSet: false
             }
         ],
-        'array-callback-return': 'off',
+        'array-callback-return': 'error',
         'block-scoped-var': 'error',
         'class-methods-use-this': 'off',
         'complexity': [
@@ -140,7 +143,12 @@ module.exports = {
         'no-fallthrough': 'error',
         'no-floating-decimal': 'error',
         'no-global-assign': 'error',
-        'no-implicit-coercion': 'off',
+        'no-implicit-coercion': [
+            'error',
+            {
+                allow: ['!!']
+            }
+        ],
         'no-implicit-globals': 'error',
         'no-implied-eval': 'error',
         'no-invalid-this': 'off',
@@ -176,7 +184,7 @@ module.exports = {
             'always'
         ],
         'no-return-await': 'error',
-        'no-script-url': 'off',
+        'no-script-url': 'error',
         'no-self-assign': 'error',
         'no-self-compare': 'error',
         'no-sequences': 'error',
@@ -226,23 +234,7 @@ module.exports = {
         'no-delete-var': 'error',
         'no-label-var': 'error',
         'no-restricted-globals': 'off',
-        'no-shadow': [
-            'error',
-            {
-                builtinGlobals: false,
-                hoist: 'functions',
-                allow: [
-                    'resolve',
-                    'reject',
-                    'done',
-                    'cb',
-                    'callback',
-                    'error',
-                    'err',
-                    'e'
-                ]
-            }
-        ],
+        'no-shadow': 'off',
         'no-shadow-restricted-names': 'error',
         'no-undef': [
             'error',
@@ -257,7 +249,8 @@ module.exports = {
             {
                 vars: 'all',
                 args: 'none',
-                caughtErrors: 'none'
+                caughtErrors: 'none',
+                ignoreRestSiblings: true
             }
         ],
         'no-use-before-define': [
@@ -559,7 +552,12 @@ module.exports = {
             }
         ],
         'no-class-assign': 'error',
-        'no-confusing-arrow': 'error',
+        'no-confusing-arrow': [
+            'error',
+            {
+                allowParens: true
+            }
+        ],
         'no-const-assign': 'error',
         'no-dupe-class-members': 'error',
         'no-duplicate-imports': 'error',
