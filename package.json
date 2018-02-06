@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-foora",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "eslint规则",
   "main": "index.js",
   "scripts": {
